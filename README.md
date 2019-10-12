@@ -54,6 +54,8 @@ To buy phone numbers, example:
 $ switchboard buy --area_code 617 --quantity 2
 ```
 
+Error "TypeError: Cannot read property 'phoneNumber' of undefined" - if you get this error, that means there are not available phone numbers to buy in the desired Area Code, and you should try another Area Code
+
 To release a phone number (with number formatted like example), example:
 
 ```shell
